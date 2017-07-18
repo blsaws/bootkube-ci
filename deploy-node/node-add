@@ -29,6 +29,7 @@ function echo_yellow {
 }
 
 source .bootkube_env
+mkdir -p $TMPDIR
 
 ## NEW INSTALLATIONS:
 echo_green "\nPhase I: Installing system prerequisites:"
