@@ -34,6 +34,7 @@ helm delete --purge rabbitmq
 helm delete --purge mariadb
 helm delete --purge bootstrap-openstack
 helm delete --purge bootstrap-ceph
+helm delete --purge ceph-openstack-config
 helm delete --purge ceph
 sudo rm -rf /var/lib/openstack-helm
 sudo rm -rf /var/lib/nova
